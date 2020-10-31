@@ -1,0 +1,73 @@
+@import 'default.css';
+
+body {
+  padding-top: 4em;
+  background-color: #343a40;
+}
+
+.no-topbar {
+  padding-top: 10px;
+}
+
+.navbar {
+  background-color: #343a40;
+  border: 0;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover {
+  color: #999;
+}
+
+.btn-pause {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%237f8289' viewBox='0 0 8 8'><path d='M1 1v6h2v-6h-2zm4 0v6h2v-6h-2z'></path></svg>") no-repeat center center;
+    background-color: #343a40;
+    border: 1px solid transparent;
+}
+
+.btn-pause.play {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%237f8289' viewBox='0 0 8 8'><path d='M1 1v6l6-3-6-3z'></path></svg>") no-repeat center center;
+    background-color: #343a40;
+}
+
+.form-control {
+  border: 0;
+  color: #7f8289;
+  background-color: #343a40;
+}
+
+.log {
+  white-space: pre;
+  color: rgba(255,255,255,.7);
+  font-size: 0.85em;
+  background: inherit;
+  border: 0;
+  padding: 0;
+}
+
+.log .inner-line {
+  padding: 0px;
+  margin-left: 84pt;
+  text-indent: -84pt;
+  margin-bottom: 0;
+}
+
+.log .inner-line:empty::after {
+  content: '.';
+  visibility: hidden;
+}
+
+.log.no-indent .inner-line {
+  margin-left: 0;
+  text-indent: 0;
+}
+
+.log .line-selected {
+  background-color: #293b4c;
+}
+
+.form-control.query:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124
+}
